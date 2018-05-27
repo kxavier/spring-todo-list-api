@@ -5,7 +5,7 @@
 
     <groupId>xavier.kleber</groupId>
     <artifactId>spring-todo-list-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.1</version>
     <packaging>jar</packaging>
 
     <name>spring-todo-list-api</name>
@@ -51,6 +51,7 @@
     </dependencies>
 
     <build>
+        <finalName>spring-todo-list-api</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
